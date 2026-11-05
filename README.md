@@ -1,4 +1,4 @@
-# datocapital-com
+# Dato Capital
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-datocapital-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://datocapital.com/
+Dato Capital provides international company and director search services, offering access to global corporate records, director information, and related data. The platform enables users to search for companies worldwide, retrieve detailed corporate structures, and obtain director profiles, supporting compliance, due diligence, and market research needs.
+
+**Areas:** Company · Data · Search · Compliance · Due Diligence
+
+## Dato Capital on APIs.io
+
+Everything profiled for Dato Capital is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/datocapital-com/](https://apis.io/providers/datocapital-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Dato Capital Account API](https://apis.io/apis/datocapital-com/datocapital-com-account-api/) — Caller identity, plan, entitlements.
+- [Dato Capital Companies API](https://apis.io/apis/datocapital-com/datocapital-com-companies-api/) — Look up and search company records.
+- [Dato Capital Filings API](https://apis.io/apis/datocapital-com/datocapital-com-filings-api/) — Per-company filing history.
+- [Dato Capital Health API](https://apis.io/apis/datocapital-com/datocapital-com-health-api/) — Operational endpoints (no auth required).
+- [Dato Capital Individuals API](https://apis.io/apis/datocapital-com/datocapital-com-individuals-api/) — Officers, directors, shareholders.
+- [Dato Capital Reference API](https://apis.io/apis/datocapital-com/datocapital-com-reference-api/) — Static catalogs (countries, types).
+- [Dato Capital Suggest API](https://apis.io/apis/datocapital-com/datocapital-com-suggest-api/) — Typeahead.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Datocapital Com Agentic Access](https://apis.io/agentic-access/datocapital-com/datocapital-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Company](https://apis.io/schemas/datocapital-com/datocapital-com-company/)
+- [CompanyList](https://apis.io/schemas/datocapital-com/datocapital-com-company-list/)
+- [Individual](https://apis.io/schemas/datocapital-com/datocapital-com-individual/)
+- [IndividualList](https://apis.io/schemas/datocapital-com/datocapital-com-individual-list/)
+- [RepresentativeList](https://apis.io/schemas/datocapital-com/datocapital-com-representative-list/)
+- [WhoAmI](https://apis.io/schemas/datocapital-com/datocapital-com-who-am-i/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Datocapital Com Context](https://apis.io/jsonld/datocapital-com/datocapital-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Dato Capital API Rules](https://apis.io/rules/datocapital-com/datocapital-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Datocapital Com Authentication](https://apis.io/security/datocapital-com/datocapital-com-authentication/)
+- [Datocapital Com Domain Security](https://apis.io/security/datocapital-com/datocapital-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Datocapital Com Plans Pricing](https://apis.io/plans/datocapital-com/datocapital-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://datocapital.com/)
+- [Documentation](https://en.datocapital.com/help.html)
+- [API reference](https://api.datocapital.com)
+- [Pricing](https://en.datocapital.com/pricing.html)
+- [Blog](https://en.datocapital.com/blog/uk-removed-urls-right-to-be-forgotten.html)
+- [Terms of service](https://en.datocapital.com/terms-of-service.html)
+- [Privacy policy](https://en.datocapital.com/privacy-policy.html)
+- [GitHub](https://github.com/DatoCapital)
+
+## API Evangelist rating
+
+**Kin Score 55.0** — strong · rubric 0.25.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 57.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 73.2 |
+
+**Agent readiness 32.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/datocapital-com/](https://apis.io/providers/datocapital-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dato Capital: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/datocapital-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
